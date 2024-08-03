@@ -51,4 +51,8 @@ export class TasksComponent {
   onStartAddTask() {
     this.isAddinTask = true;
   }
+
+  onCancelAddTask() {
+    this.isAddinTask = false
+  }
 }
