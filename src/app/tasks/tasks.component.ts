@@ -28,11 +28,7 @@ export class TasksComponent {
     this.isAddinTask = true;
   }
 
-  onCancelAddTask() {
-    this.isAddinTask = false;
-  }
-
-  onAddTask(taskData: newTaskData) {
+  onCloseAddTask() {
     this.isAddinTask = false;
   }
 }
